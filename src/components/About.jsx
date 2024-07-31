@@ -8,6 +8,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import miss from '../assets/miss.jpg'
 import meg from '../assets/meg.jpg'
+import ab from '../assets/ab.jpg'
 
 
 const About = () => {
@@ -115,13 +116,20 @@ const About = () => {
 {/* mission */}
 <section class="bg-white mt-10">
     <div class="max-w-[1280px] mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
         <div class="mt-10 md:mt-0">
                 <img src={meg} alt="About Us Image" class="object-cover rounded-lg shadow-md"/>
             </div>
             <div class="max-w-lg">
                 <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Mission</h2>
-                <p class="mt-4 text-gray-600 text-lg">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ipsum voluptatum deserunt aspernatur fugiat vel dolores et, qui atque aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, non tempora dolore ipsa labore praesentium repellat blanditiis maiores cumque veritatis omnis voluptatibus, laborum consectetur unde laboriosam. Minus ex ad, tempora eligendi dicta sit cumque modi fugiat corporis dolorum quo aliquam error illum. Asperiores reiciendis quia itaque explicabo voluptatum aperiam quae? Culpa labore sint, iste repellendus ea deleniti nam? Dolorum, doloremque.
+                <p class="mt-4 text-gray-600 text-lg">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
+                   ipsum voluptatum deserunt aspernatur fugiat vel dolores et, qui atque aut! Lorem,
+                    ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                    , non tempora dolore ipsa labore praesentium repellat blanditiis maiores 
+                    cumque veritatis omnis voluptatibus, laborum consectetur unde laboriosam. Minus ex
+                     ad, tempora eligendi dicta sit cumque modi fugiat corporis dolorum quo aliquam error illum. 
+                     Asperiores reiciendis quia itaque explicabo voluptatum aperiam quae? Culpa labore sint, 
+                     iste repellendus ea deleniti nam? Dolorum, doloremque.
               kits. <br />.</p>
               </div>
               </div>
@@ -185,7 +193,7 @@ const About = () => {
         <div className="max-w-[1280px] mx-auto grid grid-cols-4 gap-5  ">
           <div className="max-w-sm rounded-xl overflow-hidden shadow-xl col-start-2 text-white bg-black">
             <div className="px-6 py-4">
-            <img src={sir2} alt="" className="rounded-full" />
+            <img src={sir2} alt="" className="" />
               <div className="text-lg mb-2">Dr. Sayan Dey</div>
               <div className=" text-white font-bold text-2xl mb-2">
                 Director
@@ -212,7 +220,7 @@ const About = () => {
 
           <div className="max-w-sm rounded-xl overflow-hidden shadow-2xl bg-black  text-black">
             <div className="px-6 py-4">
-            <img src={akashay} alt="" className=" rounded-full mt-6" />
+            <img src={akashay} alt="" className="  mt-6" />
               <div className="text-white text-lg mb-2">Dr. Akashay K</div>
               <div className="text-white  font-bold text-2xl mb-2">
                 Director
@@ -237,7 +245,7 @@ const About = () => {
 
           <div className="max-w-sm rounded-xl overflow-hidden shadow-xl bg-black ">
             <div className="px-6 py-4">
-            <img src={sir} alt="" className="rounded-full" />
+            <img src={ab} alt="" className="w-full" />
               <div className="text-xl mb-2 text-white ">
                 Abhijit Narayan Eshore
               </div>

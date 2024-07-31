@@ -45,7 +45,7 @@ const Prodcut2 = () => {
 
 
     <div className="py-[100px] -mt-10">
-        <div className="max-w-[1280px] mx-auto grid grid-cols-4 gap-4">
+        <div className="max-w-[1280px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5">
            
            
             {/* card-1 */}

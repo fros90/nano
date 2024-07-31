@@ -2,7 +2,6 @@ import React from 'react'
 import logo from "../assets/logo.png"
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa";
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -100,14 +99,8 @@ const Footer = () => {
                 <span class="ml-2 text-xl font-bold tracking-wide text-white">nanosemic</span>
             </a>
             <div class="mt-6 lg:max-w-xl">
-                <p class="text-sm text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi felis mi, faucibus dignissim lorem
-                    id, imperdiet interdum mauris. Vestibulum ultrices sed libero non porta. Vivamus malesuada urna eu
-                    nibh malesuada, non finibus massa laoreet. Nunc nisi velit, feugiat a semper quis, pulvinar id
-                    libero. Vivamus mi diam, consectetur non orci ut, tincidunt pretium justo. In vehicula porta
-                    molestie. Suspendisse potenti. 
-                    </p>
-                    <div className='flex justify-between md:w-[75%] gap-4 my-6'>
+               
+                    <div className='flex justify-between md:w-[75%] gap-4 my-6 mt-20'>
                     <Link to="https://g.co/kgs/DhcmQ6L" class="w-full min-w-xl">
                     <img src="https://mcqmate.com/public/images/icons/playstore.svg" alt="Playstore Button"
                         className="h-10"/>
@@ -161,13 +154,14 @@ const Footer = () => {
             <li>
                 <Link to ="/policy"
                     className="text-sm text-white hover:text-blue-400  transition-colors duration-300 hover:text-deep-purple-accent-400">Policy
-                    &amp;
-                </Link>
+                    
+                </Link>  &
+
             </li>
             <li>
-                <Link to ="/terms"
+                <a href  ="/terms"
                     className="text-sm text-white transition-colors duration-300  hover:text-blue-400 ">Terms and Condition
-                </Link>
+                </a>
             </li>
         </ul>
     </div>

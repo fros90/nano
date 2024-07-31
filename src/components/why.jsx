@@ -6,44 +6,41 @@ const why = () => {
     <>
     {/* why nano intro */}
      <div className="bg-black min-h-96">
-        <div className="max-w-[1280px] mx-auto">
+        <div className="max-w-[1280px] mx-auto p-16 px-4 sm:px-6 lg:px-8">
             
             
-         <h1 className='text-white text-[20px] py-20 underline'>
+         <h1 className='text-white text-[20px] py-16 underline'>
             Why nanosemic
         </h1>
-            <h1 className="text-white text-6xl -mt-10 fond-bold hover:italic">
-            A Different Approach, Using a New Method of Manufacturing 
-           World of Sensor</h1>
+            <h1 className="text-white text-5xl -mt-10 fond-bold hover:italic">
+            A different approach using a new method of
+             manufacturing world of Sensor</h1>
 
         </div>
         </div>
 
-        {/* why info */}
 
-
-        <div className="bg-black py-10 -mt-10">
-        <div className="max-w-[1280px] mx-auto grid grid-cols-2 bottom-border border-yellow-400 ">
-          <div className="col-span-1 text-white mt-10">
-            <img src={Gold} alt="" className="" />
+        {/* section */}
+        <section class="bg-black  -mt-10">
+    <div class="max-w-[1280px] mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+        <div class="mt-10 md:mt-0">
+                <img src={Gold} alt="About Us Image" class="object-cover rounded-lg shadow-md"/>
             </div>
-
-            <div className="col-span-1 text-white mt-10">
-            <p className="text-md tracking-tight">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-               Nemo nisi vitae sint,
-               laboriosam quibusdam soluta amet minus quis neque
-                veritatis! Lorem ipsum dolo
-               r sit amet consectetur adipisicing 
-               elit. Facere, velit?
-               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, nam!
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum placeat fugiat eligendi officiis sit atque in nam, ipsam ex?
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium illo aspernatur dignissimos suscipit rem blanditiis reprehenderit! Architecto eum sapiente velit tempora dolor, doloremque amet quo praesentium, rerum, animi officia. Sint dignissimos nesciunt odit, magnam exercitationem quam necessitatibus consectetur error aut.
-            </p>
-          </div>
-
-        </div>
-        </div>
+            <div class="max-w-lg">
+                <p class="mt-4 text-white text-normal">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
+                   ipsum voluptatum deserunt aspernatur fugiat vel dolores et, qui atque aut! Lorem,
+                    ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                    , non tempora dolore ipsa labore praesentium repellat blanditiis maiores 
+                    cumque veritatis omnis voluptatibus, laborum consectetur unde laboriosam. Minus ex
+                     ad, tempora eligendi dicta sit cumque modi fugiat corporis dolorum quo aliquam error illum. 
+                     Asperiores reiciendis quia itaque explicabo voluptatum aperiam quae? Culpa labore sint, 
+                     iste repellendus ea deleniti nam? Dolorum, doloremque.
+              kits. <br />.</p>
+              </div>
+              </div>
+              </div>
+              </section>
 
 
 

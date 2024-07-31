@@ -9,7 +9,7 @@ import React from 'react'
 const login = () => {
 return (
     <>
-    <div className="relative flex flex-col justify-center min-h-screen overflow-hidden">
+    <div className="relative flex flex-col justify-center min-h-screen overflow-hidden ">
             <div className="w-full p-6 m-auto bg-white rounded-md shadow-xl ring-2 ring-black lg:max-w-xl">
                 
                 <h1 className="text-3xl font-semibold text-center text-ogcolor ">
@@ -83,8 +83,9 @@ return (
                 </p>
             </div>
             </div>
-  
-    
+
+            {/* section */}
+            
     
       
       

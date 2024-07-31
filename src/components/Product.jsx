@@ -6,7 +6,7 @@ const Product = () => {
   return (
     <>
      <div className=" bg-ogcolor h-96">
-        <div className="max-w-[1280px] mx-auto">
+        <div className="max-w-[1280px] mx-auto px-4 ">
             <div className="grid grid-cols-2">
             <div className="col-span-1 py-10">
                 <h1 className="text-white font-sans text-4xl">
@@ -46,8 +46,8 @@ const Product = () => {
     {/* cards  */}
 
 
-    <div className="py-[100px] -mt-10">
-        <div className="max-w-[1280px] mx-auto grid grid-cols-4  gap-4 ">
+    <div className="py-[100px] -mt-10 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1280px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2  gap-5">
            
            
             {/* card-1 */}

@@ -1,5 +1,10 @@
 import React from 'react'
 import bach from '../assets/bach.jpg'
+import ide from '../assets/ide.png'
+import sen from '../assets/sen.png'
+import mat from '../assets/mat.png'
+import int from '../assets/int.png'
+
 
 const Product1 = () => {
   return (
@@ -45,15 +50,16 @@ const Product1 = () => {
 
 
     <div className="py-[100px] -mt-10">
-        <div className="max-w-[1280px] mx-auto grid grid-cols-4 gap-4">
+        <div className="max-w-[1280px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5">
            
            
             {/* card-1 */}
-            <div className="max-w-sm rounded overflow-hidden shadow-xl">
-                <img src={bach} alt="" className="w-full" />
+            <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                <img src={ide} alt="" className="w-full" />
+            
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">
-                        Screen Products
+                        Interdigitated Electrode
                     </div>
                     <p className="text-gray-700 text-base">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
@@ -64,10 +70,10 @@ const Product1 = () => {
 
             {/* card-2 */}
             <div className="max-w-sm rounded overflow-hidden shadow-xl">
-                <img src={bach} alt="" className="w-full" />
+                <img src={sen} alt="" className="w-full" />
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">
-                        Tata Edge
+                        Sensor Substrates 
 
                     </div>
                     <p className="text-gray-700 text-base">
@@ -79,10 +85,10 @@ const Product1 = () => {
 
             {/* card-3 */}
             <div className="max-w-sm rounded-md overflow-hidden shadow-xl">
-                <img src={bach} alt="" className="w-full" />
+                <img src={mat} alt="" className="w-full" />
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">
-                        College Prodcuts
+                        Sensing Materials 
                     </div>
                     <p className="text-gray-700 text-base">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
@@ -93,10 +99,10 @@ const Product1 = () => {
                 
             {/* card-4 */}
             <div className="max-w-sm rounded overflow-hidden shadow-xl">
-                <img src={bach} alt="" className="w-full" />
+                <img src={int} alt="" className="w-full" />
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">
-                       school Products
+                       Integrated Sensors
                     </div>
                     <p className="text-gray-700 text-base">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2

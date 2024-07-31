@@ -70,9 +70,9 @@ const Contact = () => {
      
 {/* how to contact  */}
     <div className="bg-gray-100 h-60 rounded-xl shadow-xl">
-      <div className="max-w-[1280px] mx-auto">
+      <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-black">
-          <h1 className="text-xl font-serif mt-10 py-10 pb-10 sm:px-2 md:px-2">
+          <h1 className="text-xl font-serif mt-10 py-10 pb-10 ">
             How you can contact to us.
             <ol className="text-black text-md font-serif text-sm mt-5 list-disc list-inside sm:px-2">
               <li>Via Email : nanosemic.official@gmail.com </li>

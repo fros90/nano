@@ -4,7 +4,7 @@ const Policy = () => {
   return (
     <>
     <div className="bg-ogcolor py-5 min-h-48">
-        <div className="max-w-[1280px] mx-auto ">
+        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 ">
             <div className="text-white py-20">
                 <h1 className=" text-4xl font-semibold font-sans">
                     Private Policy 
@@ -15,7 +15,7 @@ const Policy = () => {
 
 
                 <div className="max-w-[1280px] mx-auto py-20">
-                    <div className="">
+                    <div className=" px-4 sm:px-6 lg:px-8">
                         <h1 className="text-3xl text-gray-800 font-sans font-semibold pb-5 ">
                         A Legal Disclaimer
                         </h1>

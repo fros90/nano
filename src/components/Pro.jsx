@@ -3,7 +3,7 @@ import health from '../assets/health.jpg'
 import agri from '../assets/ag.jpg'
 import safe from '../assets/safe.jpg'
 import edu from '../assets/edu.jpg'
-import cie from '../assets/cie.jpg'
+import ai from '../assets/ai.jpg'
 import selo from '../assets/selo.jpg'
 import { useNavigate } from 'react-router-dom'
 
@@ -16,8 +16,8 @@ function Pro () {
   return (
     <>
     {/* header */}
-    <div className=" bg-ogcolor">
-        <div className="max-w-[1280px] mx-auto">
+    {/* <div className=" bg-ogcolor">
+        <div className="max-w-[1280px] mx-auto ">
             <div className="grid grid-cols-2">
             <div className="col-span-1 py-10">
                 <h1 className="text-white font-bold font-sans text-4xl">
@@ -43,7 +43,25 @@ function Pro () {
             </div> 
 
       
-     </div>
+     </div> */}
+
+<section className="bg-ogcolor max-h-96">
+    <div className="max-w-[1280px] mx-auto py-10 px-4 sm:px-6 lg:px-8 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2  gap-8">
+            <div class="">
+                <h2 className="text-3xl font-semibold text-white sm:text-4xl ">Products</h2>
+                <p className="mt-10 sm:6  text-white text-md ">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br/>
+                     Expedita, necessitatibus quia! Mollitia eligendi corporis <br/>
+                     nesciunt minima. Iusto eaque nesciunt consequuntur! 
+                </p>
+            </div>
+            <div className="mt-0 md:mt-0">
+                <img src={ai} alt="About Us Image" className=" w[700px] h [300px]"/>
+            </div>
+        </div>
+    </div>
+    </section>
 
 
     {/* main  */}
@@ -51,7 +69,7 @@ function Pro () {
         <div className="max-w-[1280px] mx-auto">
             
             <hr></hr>
-         <h1 className='text-black py-10 text-4xl fond-bold'>
+         <h1 className='text-black py-10 pb-0 smp:pb-4 text-4xl fond-bold px-4 sm:px-6 lg:px-8'>
             Our Products
          </h1>
             {/* <h1 className="text-black text-6xl fond-bold hover:italic py-5">
@@ -63,7 +81,7 @@ function Pro () {
 
         {/* cards in products */}
         <div className="py-[100px] -mt-10">
-        <div className="max-w-[1280px] mx-auto grid lg:grid-cols-4 md:grid-col-2 sm:px[20px] gap-8">
+        <div className="max-w-[1280px] mx-auto grid lg:grid-cols-4 md:grid-col-2 sm:2 gap-8 px-4 sm:px-6 lg:px-8">
 
           {/* card-1 */}
           <div className="shadow-xl max-w-sm rounded overflow-hidden">
@@ -88,7 +106,7 @@ function Pro () {
 
                 {/* cards-2 */}
 
-               <div className="shadow-xl "shadow-xl max-w-sm rounded overflow-hidden>
+               <div className= "shadow-xl max-w-sm rounded overflow-hidden">
             <img src={edu} alt="" className="w-full" />
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">
@@ -157,7 +175,7 @@ function Pro () {
         {/* product */}
         <section class="bg-gray-100">
     <div class="max-w-[1280px] mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div class="mt-12 md:mt-0">
                 <img src={selo} alt="About Us Image" className=" w-[500px] h-[400px] object-cover rounded-lg shadow-md"/>
             </div>
