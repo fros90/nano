@@ -1,6 +1,8 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import logo from '../assets/our-service.jpg'
+import power from '../assets/powerk.jpg'
+import simu from'../assets/simu.jpg'
 import cons from '../assets/cons.jpg'
 import model from  '../assets/model.jpg'
 function Services() {
@@ -126,7 +128,7 @@ const navigate=useNavigate();
           
         
         </div>
-      </div><img src={logo} width="2432" height="1442"/>
+      </div><img src={power} width="2432" height="1442"/>
     </div>
   </div>
 </section>
@@ -140,7 +142,7 @@ const navigate=useNavigate();
 <section class="overflow-hidden bg-white py-8 sm:py-16">
   <div class="mx-auto max-w-[1280px] px-6 lg:px-8">
     <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-    <img src={model} width="2432" height="1442 mx-10" />
+    <img src={simu} width="2432" height="1442 mx-10" />
       <div class="lg:pr-8 lg:pt-4 mx-5">
         <div class="lg:max-w-lg">
           <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Semiconductor Device Simulation & Modeling</p>
