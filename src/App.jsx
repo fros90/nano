@@ -15,6 +15,8 @@ import About from './components/About'
 import Login from './components/login'
 import Services from './components/Services'
 import Footer from './components/Footer'
+import Signup from './components/Signup'
+import Signin from './components/Signin'
 
 function App() {
   
@@ -28,7 +30,8 @@ function App() {
     <Route  path="/home" element= {<Home/>}/>
     <Route path= "/about" element ={<About/>}/>
     <Route path ="/Contact" element = {<Contact/>}/>
-    <Route path = "/login" element = {<Login/>}/>
+    <Route path = "/signup" element = {<Signup/>}/>
+    <Route path="/signin"  element = {<Signin/>}/>
     <Route path = "/product" element = {<Product/>}/>
     <Route path = "/education" element = {<Education/>}/> 
     <Route path = "/agriculture" element = {<Agriculture/>}/>
@@ -37,6 +40,7 @@ function App() {
     <Route path = "/terms"  element ={<Terms/>}/>
     <Route path = "/pro" element = {<Pro/>}/>
     <Route path ="/services" element ={<Services/>}/>
+    {/* <Route path='/signup' element = {<Signup/>}/> */}
     
    
      

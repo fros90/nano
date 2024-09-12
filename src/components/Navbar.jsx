@@ -93,10 +93,16 @@ function Navbar() {
               </li>
             </ul>
             <button
-              onClick={() => navigate("/login")}
+              onClick={() => navigate("/signup")}
               className="bg-white text-black rounded-full py-1 px-4 hover:cursor-pointer text-lg font-semibold"
             >
-              Login
+              Signup
+            </button>
+            <button
+              onClick={() => navigate("/signin")}
+              className="bg-white text-black rounded-full py-1 px-4 hover:cursor-pointer text-lg font-semibold"
+            >
+              Signin
             </button>
           </div>
 
@@ -141,12 +147,12 @@ function Navbar() {
             </li>
             <button
               onClick={() => {
-                navigate("/login");
+                navigate("/signup");
                 handleNav();
               }}
               className="bg-white text-black rounded-full py-2 px-4 mt-4 text-lg font-semibold"
             >
-              Login
+              Signup
             </button>
           </ul>
         </div>
