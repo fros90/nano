@@ -56,7 +56,7 @@ const Product3 = () => {
                        Safety Products
                     </div>
                     <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
+                        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2 */}
                     </p>
                 </div>
             </div>
@@ -71,7 +71,7 @@ const Product3 = () => {
 
                     </div>
                     <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
+                        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2 */}
                     </p>
                 </div>
             </div>
@@ -85,7 +85,7 @@ const Product3 = () => {
                     Safety Products
                     </div>
                     <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
+                        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2 */}
                     </p>
                 </div>
                 </div>
@@ -99,7 +99,7 @@ const Product3 = () => {
                        Safety Products
                     </div>
                     <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
+                        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2 */}
                     </p>
                 </div>
                 </div>

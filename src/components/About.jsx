@@ -339,7 +339,7 @@ const About = () => {
             <div className="max-w-lg">
               <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">Mission</h2>
               <p className="mt-4 text-gray-600 text-lg">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ipsum voluptatum deserunt aspernatur fugiat vel dolores et, qui atque aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, non tempora dolore ipsa labore praesentium repellat blanditiis maiores cumque veritatis omnis voluptatibus, laborum consectetur unde laboriosam.
+                {/* Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ipsum voluptatum deserunt aspernatur fugiat vel dolores et, qui atque aut! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, non tempora dolore ipsa labore praesentium repellat blanditiis maiores cumque veritatis omnis voluptatibus, laborum consectetur unde laboriosam. */}
               </p>
             </div>
           </div>
@@ -356,7 +356,7 @@ const About = () => {
                   <span className="block">We are innovative</span>
                 </h2>
                 <p className="mt-4 text-base leading-6 text-black">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. */}
                 </p>
               </div>
             </div>

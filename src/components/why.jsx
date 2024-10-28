@@ -28,15 +28,15 @@ const why = () => {
                 <img src={Gold} alt="About Us Image" class="object-cover rounded-lg shadow-md"/>
             </div>
             <div class="max-w-lg">
-                <p class="mt-4 text-white text-normal">  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
-                   ipsum voluptatum deserunt aspernatur fugiat vel dolores et, qui atque aut! Lorem,
+                <p class="mt-4 text-white text-normal">  
+                   {/* ipsum voluptatum deserunt aspernatur fugiat vel dolores et, qui atque aut! Lorem,
                     ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
                     , non tempora dolore ipsa labore praesentium repellat blanditiis maiores 
                     cumque veritatis omnis voluptatibus, laborum consectetur unde laboriosam. Minus ex
                      ad, tempora eligendi dicta sit cumque modi fugiat corporis dolorum quo aliquam error illum. 
                      Asperiores reiciendis quia itaque explicabo voluptatum aperiam quae? Culpa labore sint, 
-                     iste repellendus ea deleniti nam? Dolorum, doloremque.
-              kits. <br />.</p>
+                     iste repellendus ea deleniti nam? Dolorum, doloremque. */}
+               <br /></p>
               </div>
               </div>
               </div>

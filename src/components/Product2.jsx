@@ -56,7 +56,7 @@ const Prodcut2 = () => {
                         Crops Products
                     </div>
                     <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
+                        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2 */}
                     </p>
                 </div>
             </div>
@@ -71,7 +71,7 @@ const Prodcut2 = () => {
 
                     </div>
                     <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
+                        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2 */}
                     </p>
                 </div>
             </div>
@@ -86,7 +86,7 @@ const Prodcut2 = () => {
 
                     </div>
                     <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
+                        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2 */}
                     </p>
                 </div>
                 </div>
@@ -101,7 +101,7 @@ const Prodcut2 = () => {
 
                     </div>
                     <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
+                        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2 */}
                     </p>
                 </div>
                 </div>

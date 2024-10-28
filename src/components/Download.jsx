@@ -15,9 +15,9 @@ const Download = () => {
             <h1 className="text-black text-5xl font-bold ">  Mind</h1> 
           
           <p className=" text-black mt-5 pb-2">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis rerum 
+            {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis rerum 
             inventore molestiae sed repudiandae veniam provident quos debitis,
-             incidunt quis iste laboriosam, tempore enim, maiores vel reprehenderit est magnam facilis.
+             incidunt quis iste laboriosam, tempore enim, maiores vel reprehenderit est magnam facilis. */}
           </p>
           
           <button className='bg-black text-white w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 animate-bounce focus:animate-none hover:animate-none'>Lounching Soon </button>

@@ -21,7 +21,7 @@ const terms = () => {
                         </h1>
                         <hr className=" h-0.5 bg-gray-300" />
                     <p className="py-3 mt-5">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                        {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
                         , harum quas facere odit earum, 
                         unde nisi labore ratione ad dolor officiis beatae iusto. 
                         Blanditiis, inventore cumque beatae asperiores magnam, nemo voluptatem distinctio ab architecto
@@ -29,10 +29,10 @@ const terms = () => {
                          oluptatum eius et aperiam, laboriosam quae provident maxime ipsa veniam quis repudiandae quisquam animi
                           eum pariatur, nemo harum sint magni suscipit. At mollitia dignissimos veritatis. Ratione, nihil. Tenetur
                            fuga ipsam officia ut alias omnis asperiores ex ipsum cumque, debitis excepturi,
-                         ducimus voluptates numquam sequi sint error eaque pariatur unde et perferendis adipisci!
+                         ducimus voluptates numquam sequi sint error eaque pariatur unde et perferendis adipisci! */}
                          </p>
                          <p className="py-3">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                        {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
                         , harum quas facere odit earum, 
                         unde nisi labore ratione ad dolor officiis beatae iusto. 
                         Blanditiis, inventore cumque beatae asperiores magnam, nemo voluptatem distinctio ab architecto
@@ -40,10 +40,10 @@ const terms = () => {
                          oluptatum eius et aperiam, laboriosam quae provident maxime ipsa veniam quis repudiandae quisquam animi
                           eum pariatur, nemo harum sint magni suscipit. At mollitia dignissimos veritatis. Ratione, nihil. Tenetur
                            fuga ipsam officia ut alias omnis asperiores ex ipsum cumque, debitis excepturi,
-                         ducimus voluptates numquam sequi sint error eaque pariatur unde et perferendis adipisci!
+                         ducimus voluptates numquam sequi sint error eaque pariatur unde et perferendis adipisci! */}
                          </p>
                          <p className="py-3">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                        {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
                         , harum quas facere odit earum, 
                         unde nisi labore ratione ad dolor officiis beatae iusto. 
                         Blanditiis, inventore cumque beatae asperiores magnam, nemo voluptatem distinctio ab architecto
@@ -51,10 +51,10 @@ const terms = () => {
                          oluptatum eius et aperiam, laboriosam quae provident maxime ipsa veniam quis repudiandae quisquam animi
                           eum pariatur, nemo harum sint magni suscipit. At mollitia dignissimos veritatis. Ratione, nihil. Tenetur
                            fuga ipsam officia ut alias omnis asperiores ex ipsum cumque, debitis excepturi,
-                         ducimus voluptates numquam sequi sint error eaque pariatur unde et perferendis adipisci!
+                         ducimus voluptates numquam sequi sint error eaque pariatur unde et perferendis adipisci! */}
                          </p>
                          <p className="py-3">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                        {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
                         , harum quas facere odit earum, 
                         unde nisi labore ratione ad dolor officiis beatae iusto. 
                         Blanditiis, inventore cumque beatae asperiores magnam, nemo voluptatem distinctio ab architecto
@@ -62,10 +62,10 @@ const terms = () => {
                          oluptatum eius et aperiam, laboriosam quae provident maxime ipsa veniam quis repudiandae quisquam animi
                           eum pariatur, nemo harum sint magni suscipit. At mollitia dignissimos veritatis. Ratione, nihil. Tenetur
                            fuga ipsam officia ut alias omnis asperiores ex ipsum cumque, debitis excepturi,
-                         ducimus voluptates numquam sequi sint error eaque pariatur unde et perferendis adipisci!
+                         ducimus voluptates numquam sequi sint error eaque pariatur unde et perferendis adipisci! */}
                          </p>
                          <p className="py-3">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+                        {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
                         , harum quas facere odit earum, 
                         unde nisi labore ratione ad dolor officiis beatae iusto. 
                         Blanditiis, inventore cumque beatae asperiores magnam, nemo voluptatem distinctio ab architecto
@@ -73,7 +73,7 @@ const terms = () => {
                          oluptatum eius et aperiam, laboriosam quae provident maxime ipsa veniam quis repudiandae quisquam animi
                           eum pariatur, nemo harum sint magni suscipit. At mollitia dignissimos veritatis. Ratione, nihil. Tenetur
                            fuga ipsam officia ut alias omnis asperiores ex ipsum cumque, debitis excepturi,
-                         ducimus voluptates numquam sequi sint error eaque pariatur unde et perferendis adipisci!
+                         ducimus voluptates numquam sequi sint error eaque pariatur unde et perferendis adipisci! */}
                          </p>
 
                 </div>

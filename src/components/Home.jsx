@@ -65,7 +65,7 @@ function Home () {
                 <h2 className=" text-md font-bold text-white sm-text-normal -mt-2 px-[80px]">
                   Where precision meets possibilities
                 </h2>
-                <p class="mt-20 text-white text-md">Welcome to namosemic, your trusted partner in the
+                <p class="mt-20 text-white text-md justify-center">Welcome to namosemic, your trusted partner in the
          semiconductor industry. Our focus on innovation,
         quality, and customer satisfaction sets us apart from 
         the competition, and we are dedicated to delivering 
@@ -101,9 +101,9 @@ function Home () {
                     Products
                   </h1>
                   <p className="text-black">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, molestiae repellat
+                    {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, molestiae repellat
                      est quae non a delectus fugit quisquam odio quibusdam dolorum.
-                      Fuga id ut quae delectus eum! Hic, earum blanditiis.
+                      Fuga id ut quae delectus eum! Hic, earum blanditiis. */}
 
                   </p>
                 </div>
@@ -122,9 +122,9 @@ function Home () {
                     Services
                   </h1>
                   <p className="text-black">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, molestiae repellat
+                    {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, molestiae repellat
                      est quae non a delectus fugit quisquam odio quibusdam dolorum.
-                      Fuga id ut quae delectus eum! Hic, earum blanditiis.
+                      Fuga id ut quae delectus eum! Hic, earum blanditiis. */}
 
                   </p>
                 </div>
@@ -187,7 +187,7 @@ function Home () {
                         Healthcare Products
                     </div>
                     <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
+                        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2 */}
                     </p>
 
                 </div>
@@ -207,7 +207,7 @@ function Home () {
                         Education Products
                     </div>
                     <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
+                        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2 */}
                     </p>
                 </div>
                 <div className=" px-6 py-3">
@@ -228,7 +228,7 @@ function Home () {
                         Agriculture Products
                     </div>
                     <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
+                        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2 */}
                     </p>
                 </div>
                 <div className=" px-6 py-3">
@@ -250,7 +250,7 @@ function Home () {
                         Safety Products
                     </div>
                     <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
+                        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2 */}
                     </p>
                 </div>
                 <div className=" px-6 py-3">

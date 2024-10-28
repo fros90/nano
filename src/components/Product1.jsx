@@ -18,11 +18,11 @@ const Product1 = () => {
                     </h1>
                     <div className="py-5 mt-28">
                     <p className="text-white font-serif text-md">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                        {/* Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
                         </br>Rerum nisi ea, debitis harum atque reprehenderit
                         <br></br> quis voluptates at perferendis animi?
                         Lorem ipsum dolor <br></br>sit amet consectetur,adipisicing
-                        adipisicing elit. Eos, laboriosam.
+                        adipisicing elit. Eos, laboriosam. */}
                     </p>
                   </div>
                   </div>
@@ -62,7 +62,7 @@ const Product1 = () => {
                         Interdigitated Electrode
                     </div>
                     <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
+                        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2 */}
                     </p>
                 </div>
             </div>
@@ -77,7 +77,7 @@ const Product1 = () => {
 
                     </div>
                     <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
+                        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2 */}
                     </p>
                 </div>
             </div>
@@ -91,7 +91,7 @@ const Product1 = () => {
                         Sensing Materials 
                     </div>
                     <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
+                        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2 */}
                     </p>
                 </div>
                 </div>
@@ -105,7 +105,7 @@ const Product1 = () => {
                        Integrated Sensors
                     </div>
                     <p className="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2
+                        {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, inventore2 */}
                     </p>
                 </div>
                 </div>
