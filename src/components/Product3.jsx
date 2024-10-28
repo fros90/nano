@@ -1,4 +1,5 @@
 import React from 'react'
+import seed from '../assets/seed.jpg'
 
 const Product3 = () => {
   return (
@@ -30,6 +31,43 @@ const Product3 = () => {
             </div>  */}
             
 
+
+    <div className="bg-ogcolor py-8 sm:py-16">
+      <div className="max-w-[1280px] mx-auto px-4">
+        
+        {/* Responsive Grid Layout */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+          
+          {/* Text Section */}
+          <div className="order-2 md:order-1 py-5 md:py-0">
+            <h1 className="text-white font-sans text-3xl sm:text-4xl leading-tight">
+              Agriculture Products
+            </h1>
+            <div className="mt-4 sm:mt-8">
+              <p className="text-white font-serif text-base sm:text-lg">
+                {/* Sample text goes here. Example:
+                Explore our variety of agriculture products designed to 
+                support sustainable farming practices and enhance crop yield. */}
+              </p>
+            </div>
+          </div>
+
+          {/* Image Section */}
+          <div className="order-1 md:order-2 flex justify-center py-4 md:py-0">
+            <img
+              src={seed}
+              alt="Agriculture"
+              className="w-full max-w-[250px] sm:max-w-[350px] md:max-w-[400px] h-auto"
+            />
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+
+            
+
       
      
     <div className="max-w-[1280px] mx-auto">
@@ -44,13 +82,13 @@ const Product3 = () => {
     {/* cards  */}
 
 
-    <div className="py-[100px] -mt-10">
-        <div className="max-w-[1280px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5">
+    <div className="py-[100px] -mt-10 px-4 sm:px-6 lg:px-8">
+    <div className="max-w-[1280px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2  gap-5">
            
            
             {/* card-1 */}
             <div className="max-w-sm rounded overflow-hidden shadow-xl">
-                <img src='' alt="" className="w-full" />
+                <img src='seed' alt="" className="w-full" />
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">
                        Safety Products
@@ -64,7 +102,7 @@ const Product3 = () => {
 
             {/* card-2 */}
             <div className="max-w-sm rounded overflow-hidden shadow-xl">
-                <img src='' alt="" className="w-full" />
+                <img src='seed' alt="" className="w-full" />
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">
                     Safety Products
@@ -79,7 +117,7 @@ const Product3 = () => {
 
             {/* card-3 */}
             <div className="max-w-sm rounded-md overflow-hidden shadow-xl">
-                <img src='' alt="" className="w-full" />
+                <img src='seed' alt="" className="w-full" />
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">
                     Safety Products
@@ -93,7 +131,7 @@ const Product3 = () => {
                 
             {/* card-4 */}
             <div className="max-w-sm rounded overflow-hidden shadow-xl">
-                <img src='' alt="" className="w-full" />
+                <img src='seed' alt="" className="w-full" />
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">
                        Safety Products

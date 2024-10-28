@@ -4,34 +4,37 @@ import crop from '../assets/crop.jpg'
 const Prodcut2 = () => {
   return (
     <>
-    <div className="bg-ogcolor h-96">
-        <div className="max-w-[1280px] mx-auto">
-            <div className="grid grid-cols-2">
-            <div className="col-span-1 py-10">
-                <h1 className="text-white font-sans text-4xl">
-                    Agriculture Prodcuts
-                    </h1>
-                    <div className="py-5 mt-28">
-                    <p className="text-white font-serif text-md">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-                        </br>Rerum nisi ea, debitis harum atque reprehenderit
-                        <br></br> quis voluptates at perferendis animi?
-                        Lorem ipsum dolor <br></br>sit amet consectetur,adipisicing
-                        adipisicing elit. Eos, laboriosam.
-                    </p>
-                  </div>
-                  </div>
-                  
-                  
-           
-            <div className="col-span-1 py-5 ">
-                <img src="" alt="" className="" />
+    <div className="bg-ogcolor py-10 sm:py-20">
+      <div className="max-w-[1280px] mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          
+          {/* Text Section */}
+          <div className="order-2 md:order-1 py-5 md:py-10">
+            <h1 className="text-white font-sans text-3xl md:text-4xl lg:text-5xl leading-tight">
+              Agriculture Products
+            </h1>
+            <div className="mt-6 md:mt-12 lg:mt-20">
+              <p className="text-white font-serif text-base sm:text-lg lg:text-xl">
+                {/* Sample text goes here. Example:
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Rerum nisi ea, debitis harum atque reprehenderit quis voluptates 
+                at perferendis animi? */}
+              </p>
             </div>
-            </div>
-            </div> 
+          </div>
 
-      
-     </div>
+          {/* Image Section */}
+          <div className="order-1 md:order-2 flex justify-center md:justify-end py-5">
+            <img
+              src={crop}
+              alt="Doctor"
+              className="w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px] h-auto"
+            />
+          </div>
+
+        </div>
+      </div>
+    </div>
     <div className="max-w-[1280px] mx-auto">
         <div className="text-center py-10">
             <h1 className="text-black font-sans text-4xl">
@@ -44,8 +47,8 @@ const Prodcut2 = () => {
     {/* cards  */}
 
 
-    <div className="py-[100px] -mt-10">
-        <div className="max-w-[1280px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 gap-5">
+    <div className="py-[100px] -mt-10 px-4 sm:px-6 lg:px-8">
+    <div className="max-w-[1280px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2  gap-5">
            
            
             {/* card-1 */}

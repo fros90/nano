@@ -9,7 +9,6 @@ import ai from '../assets/ai.jpg';
 import { useNavigate } from 'react-router-dom';
 
 function Pro() {
-  const navigate = useNavigate();
 
   return (
     <>
